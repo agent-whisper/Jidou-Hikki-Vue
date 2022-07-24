@@ -1,6 +1,6 @@
 {
-  "name": "Jidou-Hikki-Vue",
-  "version": "1.0.0",
+  "name": "jidou-hikki-vue",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,13 +13,17 @@
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
     "bootstrap": "^4.6.1",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.19.3",
+    "js-cookie": "^3.0.1",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
+    "vuex-persist": "^3.1.3",
     "webpack": "^4.46.0"
   },
   "devDependencies": {

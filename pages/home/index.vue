@@ -4,9 +4,9 @@
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'HomePage',
   mounted() {
-    this.$router.push("/notebooks")
+    this.$router.push('/notebooks')
   },
 }
 </script>
