@@ -66,7 +66,6 @@ export default {
     }
   },
   mounted() {
-    this.injectClickListener()
     // const furigana_toggle = document.getElementById('furigana-toggle')
     // furigana_toggle.setAttribute('data-furigana-state', 'show_all')
   },
@@ -87,7 +86,7 @@ export default {
     onWordClicked(event) {
       // Get other word instances
       const wordID =
-        event.originalTarget.parentElement.attributes['data-word-id'].value
+        event.target.parentElement.attributes['data-word-id'].value
       const words = document.querySelectorAll(`ruby[data-word-id="${wordID}"]`)
       words.forEach((x) => {
         if (x.childNodes[2].style.display === 'none') {

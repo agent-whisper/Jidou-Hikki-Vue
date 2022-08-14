@@ -1,4 +1,5 @@
 # Jidou-Hikki-Vue
+Tested with nodejs 14.17.3
 
 ## Build Setup
 
