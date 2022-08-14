@@ -25,7 +25,7 @@
               v-for="item in notebook.word_list"
               :key="item.word_id"
               style="font-size: 18px"
-              >{{ item.word }}</b-list-group-item
+              >{{ item.word }} ({{ item.count }})</b-list-group-item
             >
           </b-list-group>
         </b-card>
